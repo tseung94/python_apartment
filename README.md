@@ -5,7 +5,21 @@
 
 Market share is important because it provides invaluable information to the company to determine specific plans and actions that the company can take based on its market share outlook. Every company that is looking to grow must expand its market share. A company can easily determine its growth rate by measuring the yearly or quarterly assesment of its market share and comparing it to the historical performance of the company. 
 
-iOS is the mobile operating system developed by Apple for its products such as the iPhone and iPad. It is the second largest market share operating system behind Android. 
+iOS is the mobile operating system developed by Apple for its products such as the iPhone and iPad. It is the second largest market share for mobile operating systems behind Android. 
 
 ## Business Task 
 Analyze the dataset for the market share of iPhone and iOS to identify patterns that can be used to determine production volumes for iPhones for the next fiscal year. 
+
+## Ask
+1. Is the market share analysis global or regional?
+2. What are some patterns that can be identified between global market share of iOS & Andorid and the volume of iPhone sales? 
+3. How can these patterns be used to determine production volumes for the next fiscal year? 
+
+## Prepare 
+
+### Data Information
+The dataset used was pulled from Kaggle [here](https://www.kaggle.com/datasets/mohamedfahim003/global-iphone-and-smartphone-market-2011-2023).
+
+The license is available [here](https://www.mit.edu/~amini/LICENSE.md).
+
+This is a primary dataset that was gathered by using publicly available information provided directly from Apple. There is no bias as this information is raw data provided from Apple for their yearly iPhone sales and usage of the iOS platform. 
