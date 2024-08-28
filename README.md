@@ -37,17 +37,23 @@ Data is current since it contains data as recent as 2023.
 This data is cited as it contains raw data provided by Apple 
 
 ## Process
-Begin by importing necessary Python libraries and the dataset. 
+Begin by importing necessary Python libraries and the dataset. I am using Replit for this analysis. 
 
 ```
 import pandas as pd
-
 iphone_data = pd.read_csv('Iphone_Dataset.csv')
-
 print(iphone_data.head())
 ```
 
 ![image](https://github.com/user-attachments/assets/92209410-188b-446b-8699-cdb35b528de3)
+
+Check data for any errors
+
+```
+iphone_data.info()
+```
+
+![image](https://github.com/user-attachments/assets/3088996d-f86f-4afc-a996-3fe4e6f106ec)
 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
