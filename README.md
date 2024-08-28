@@ -23,3 +23,20 @@ The dataset used was pulled from Kaggle [here](https://www.kaggle.com/datasets/m
 The license is available [here](https://www.mit.edu/~amini/LICENSE.md).
 
 This is a primary dataset that was gathered by using publicly available information provided directly from Apple. There is no bias as this information is raw data provided from Apple for their yearly iPhone sales and usage of the iOS platform. 
+
+### ROCCC
+#### Reliable
+This data is reliable as it contains raw data from Apple 
+#### Original
+The data is original as it is a primary data pulled directly from Apple. 
+#### Comprehensive
+The data is comprehensive as it extends from 2011 to 2023. 
+#### Current 
+Data is current since it contains data as recent as 2023. 
+#### Cited 
+This data is cited as it contains raw data provided by Apple 
+
+## Process
+
+
+https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
