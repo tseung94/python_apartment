@@ -37,6 +37,17 @@ Data is current since it contains data as recent as 2023.
 This data is cited as it contains raw data provided by Apple 
 
 ## Process
+Begin by importing necessary Python libraries and the dataset. 
+
+```
+import pandas as pd
+
+iphone_data = pd.read_csv('Iphone_Dataset.csv')
+
+print(iphone_data.head())
+```
+
+![image](https://github.com/user-attachments/assets/92209410-188b-446b-8699-cdb35b528de3)
 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
