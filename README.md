@@ -55,5 +55,31 @@ iphone_data.info()
 
 ![image](https://github.com/user-attachments/assets/3088996d-f86f-4afc-a996-3fe4e6f106ec)
 
+Although there are some missing values in "Percentage_of_iPhone_Users", "No_of_iPhone_Sold_USA", "iOS_Market_Share", and "Android_Market_Share", I have decided to keep the data as is to avoid missing an entire year's worth of data for this analysis. 
+
+## Analyze
+To begin, I have created a line graph to compare the amount of iPhone users in the US compared to the rest of the world. 
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No of iPhone Users Globally', marker='.')
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users_USA'], 
+label ='No_of_iPhone_Users_USA', marker='.')
+plt.legend()
+plt.title('No of iPhone Users')
+plt.xlabel('Year')
+plt.ylabel('Number of Users')
+plt.show()
+```
+
+![image](https://github.com/user-attachments/assets/95e16938-1f81-44c6-9ca2-ef40d4e3735c)
+
+As expected, global iPhone users far outpace the amount of users in the US. However, what is surprising is the rate of growth in the global iPhone market compared to the rest of the world. 
+
+The amount of iPhone users in the US has stagnated the last decade without any noticeable increase in users. On the other hand, the global iPhone market has been exploding rapidly with new users. 
+
+This suggest that Apple should focus on meeting key production targets for the global market rather than the US market. The US market has been fully saturated and noticeable gains in users will be unlikely. 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
