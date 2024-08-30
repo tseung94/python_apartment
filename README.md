@@ -115,7 +115,7 @@ plt.show()
 
 The graph reveals that both the global and US market demand for iPhones have been steadily decreasing the last decade. Yet, it is important to note that the global market still has a higher year to year growth rate compared to the US market, further supporting the notion that Apple should be focused more on the global market than the domestic market for iPhones. 
 
-Finally, I calculated the average growth rate for iPhone users in both the US and global market. 
+Finally, I calculated the average growth rate for iPhone users in both the US and global market for the last 5 years. 
 
 ```
 print('The average growth rate for the global market is ', statistics.mean(iphone_data_sorted['Percent_Increase_iPhone_Users'][8:]),'%')
