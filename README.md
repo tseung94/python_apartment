@@ -96,8 +96,14 @@ This suggest that Apple should focus on meeting key production targets for the g
 I added two more columns to the database for the yearly percent increase for the amount of iPhones sold in the US and globally for better analysis.
 
 ```
-plt.plot(iphone_data['Year'], iphone_data['Percent_Increase_iPhone_Users'], label='Percent Increases of iPhone Users Globally', marker='.')
-plt.plot(iphone_data['Year'], iphone_data['Percent_Increase_iPhone_Users_USA'], label ='Percent Increase of iPhone Users USA', marker='.')
+iphone_data_sorted['Percent_Increase_iPhone_Users'] = iphone_data_sorted['No_of_iPhone_Users'].pct_change(periods=1) * 100
+
+iphone_data_sorted['Percent_Increase_iPhone_Users_USA'] = iphone_data_sorted['No_of_iPhone_Users_USA'].pct_change(periods=1) * 100
+```
+
+```
+plt.plot(iphone_data_sorted['Year'], iphone_data_sorted['Percent_Increase_iPhone_Users'], label='Percent Increases of iPhone Users Globally', marker='.')
+plt.plot(iphone_data_sorted['Year'], iphone_data_sorted['Percent_Increase_iPhone_Users_USA'], label ='Percent Increase of iPhone Users USA', marker='.')
 plt.legend()
 plt.title('Percent Increase of iPhone Users')
 plt.xlabel('Year')
