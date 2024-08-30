@@ -117,7 +117,7 @@ The graph reveals that both the global and US market demand for iPhones have bee
 
 Also, if I calculate the average growth rate for the past 5 years for iPhone users in the US, the average is a rate of 0.034375589. Meanwhile, the average growth rate for iPhone users in the global market is 0.103758242. Both these rates can be used to determine the production volume for iPhones in the US and global market. 
 
-### Number of iPhone Users by Year 
+### Number of iPhone Users vs. iPhones Sold by Year 
 I added the columns 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
