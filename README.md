@@ -118,12 +118,12 @@ The graph reveals that both the global and US market demand for iPhones have bee
 Finally, I calculated the average growth rate for iPhone users in both the US and global market. 
 
 ```
-print(statistics.mean(iphone_data_sorted['Percent_Increase_iPhone_Users'][8:]))
+print('The average growth rate for the global market is ', statistics.mean(iphone_data_sorted['Percent_Increase_iPhone_Users'][8:]),'%')
 
-print(statistics.mean(iphone_data_sorted['Percent_Increase_iPhone_Users_USA'][8:]))
+print('The average growth rate for the US market is ', statistics.mean(iphone_data_sorted['Percent_Increase_iPhone_Users_USA'][8:]),'%')
 ```
 
-![image](https://github.com/user-attachments/assets/c513c8ba-f6e9-4d90-bafb-4b2d64a82190)
+![image](https://github.com/user-attachments/assets/ccb4b33a-7350-42e6-b678-6fbb6bf4f70e)
 
 The average growth rate for iPhone users in the US market was 3.805%. The rate for the global market was 10.632%. Both these rates can be used to determine the production volume for iPhones in the US and global market. 
 
