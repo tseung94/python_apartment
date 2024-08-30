@@ -57,6 +57,16 @@ iphone_data.info()
 
 Although there are some missing values in "Percentage_of_iPhone_Users", "No_of_iPhone_Sold_USA", "iOS_Market_Share", and "Android_Market_Share", I have decided to keep the data as is to avoid missing an entire year's worth of data for this analysis. 
 
+Finally, I sorted the "Year" column by ascending order. 
+
+```
+iphone_data_sorted = iphone_data.sort_values(by=['Year'])
+
+print(iphone_data_sorted.head())
+```
+
+![image](https://github.com/user-attachments/assets/328698f2-7c92-4752-916d-76ab1ea0fdb7)
+
 ## Analyze
 
 ### US iPhone Users vs. Global iPhone Users  
@@ -67,8 +77,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No of iPhone Users Globally', marker='.')
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users_USA'], 
-label ='No_of_iPhone_Users_USA', marker='.')
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users_USA'], label ='No_of_iPhone_Users_USA', marker='.')
 plt.legend()
 plt.title('No of iPhone Users')
 plt.xlabel('Year')
