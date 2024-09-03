@@ -142,6 +142,6 @@ plt.show()
 
 ![image](https://github.com/user-attachments/assets/97de82a3-b6b6-4c23-9b94-a68ec85bd5da)
 
-As shown by the graph, despite 
+As shown by the graph, despite a stagnation in the amount of global iPhones sold, the number of global iPhone users have been steadily increasing. This suggests that users that have purchased iPhones in the past continue to use iPhones, resulting in the cumulative increase of global iPhone users. One can safely assume from this discovery that iPhone users are satisfied with their iPhones and will continue to use iPhones as long as the product does not become defective or of lower quality. Thus, Apple should avoid cost saving directives that directly affect the quality of the iPhone. Also, Apple can produce iPhones at a similar rate to previous years due to the lack of fluctuation in sales. 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
