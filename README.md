@@ -76,8 +76,8 @@ To begin, I have created a line graph to compare the amount of iPhone users in t
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No. of iPhone Users Globally', marker='.')
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users_USA'], label ='No. of iPhone Users USA', marker='.')
+plt.plot(iphone_data_sorted['Year'], iphone_data['No_of_iPhone_Users'], label='No. of iPhone Users Globally', marker='.')
+plt.plot(iphone_data_sorted['Year'], iphone_data['No_of_iPhone_Users_USA'], label ='No. of iPhone Users USA', marker='.')
 plt.legend()
 plt.title('No. of iPhone Users')
 plt.xlabel('Year')
@@ -131,8 +131,8 @@ The average growth rate for iPhone users in the US market was 3.805%. The rate f
 I created a graph to compare the number of global iPhone users to global iPhone sales. 
 
 ```
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No of iPhone Users Globally', marker='.')
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Sold'], label ='No of iPhone Sold Globally', marker='.')
+plt.plot(iphone_data_sorted['Year'], iphone_data['No_of_iPhone_Users'], label='No of iPhone Users Globally', marker='.')
+plt.plot(iphone_data_sorted['Year'], iphone_data['No_of_iPhone_Sold'], label ='No of iPhone Sold Globally', marker='.')
 plt.legend()
 plt.title('Number of Global iPhone Users vs iPhone Sales')
 plt.xlabel('Year')
@@ -143,5 +143,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/97de82a3-b6b6-4c23-9b94-a68ec85bd5da)
 
 As shown by the graph, despite a stagnation in the amount of global iPhones sold, the number of global iPhone users have been steadily increasing. This suggests that users that have purchased iPhones in the past continue to use iPhones, resulting in the cumulative increase of global iPhone users. One can safely assume from this discovery that iPhone users are satisfied with their iPhones and will continue to use iPhones as long as the product does not become defective or of lower quality. Thus, Apple should avoid cost saving directives that directly affect the quality of the iPhone. Also, Apple can produce iPhones at a similar rate to previous years due to the lack of fluctuation in sales. 
+
+### iOS Market Share vs. Android Market Share 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
