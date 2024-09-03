@@ -76,16 +76,16 @@ To begin, I have created a line graph to compare the amount of iPhone users in t
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No of iPhone Users Globally', marker='.')
-plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users_USA'], label ='No_of_iPhone_Users_USA', marker='.')
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No. of iPhone Users Globally', marker='.')
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users_USA'], label ='No. of iPhone Users USA', marker='.')
 plt.legend()
-plt.title('No of iPhone Users')
+plt.title('No. of iPhone Users')
 plt.xlabel('Year')
 plt.ylabel('Number of Users')
 plt.show()
 ```
 
-![image](https://github.com/user-attachments/assets/cd49a250-ec3a-454a-976a-36543471dfcb)
+![image](https://github.com/user-attachments/assets/5d6e0907-2afc-4fd1-bb14-4e38d594be56)
 
 As expected, global iPhone users far outpace the amount of users in the US. However, what is surprising is the rate of growth in the global iPhone market compared to the rest of the world. 
 
@@ -128,6 +128,20 @@ print('The average growth rate for the US market is ', statistics.mean(iphone_da
 The average growth rate for iPhone users in the US market was 3.805%. The rate for the global market was 10.632%. Both these rates can be used to determine the production volume for iPhones in the US and global market. 
 
 ### Number of iPhone Users vs. iPhones Sold by Year 
-I added the columns 
+I created a graph to compare the number of global iPhone users to global iPhone sales. 
+
+```
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Users'], label='No of iPhone Users Globally', marker='.')
+plt.plot(iphone_data['Year'], iphone_data['No_of_iPhone_Sold'], label ='No of iPhone Sold Globally', marker='.')
+plt.legend()
+plt.title('Number of Global iPhone Users vs iPhone Sales')
+plt.xlabel('Year')
+plt.ylabel('Count')
+plt.show()
+```
+
+![image](https://github.com/user-attachments/assets/97de82a3-b6b6-4c23-9b94-a68ec85bd5da)
+
+As shown by the graph, despite 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
