@@ -40,7 +40,9 @@ This data is cited as it contains raw data provided by Apple
 Begin by importing necessary Python libraries and the dataset. I am using Replit for this analysis. 
 
 ```
-import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
 iphone_data = pd.read_csv('Iphone_Dataset.csv')
 print(iphone_data.head())
 ```
@@ -145,5 +147,22 @@ plt.show()
 As shown by the graph, despite a stagnation in the amount of global iPhones sold, the number of global iPhone users have been steadily increasing. This suggests that users that have purchased iPhones in the past continue to use iPhones, resulting in the cumulative increase of global iPhone users. One can safely assume from this discovery that iPhone users are satisfied with their iPhones and will continue to use iPhones as long as the product does not become defective or of lower quality. Thus, Apple should avoid cost saving directives that directly affect the quality of the iPhone. Also, Apple can produce iPhones at a similar rate to previous years due to the lack of fluctuation in sales. 
 
 ### iOS Market Share vs. Android Market Share 
+Finally, I created a bar graph to compare the global market share for iOS and Android. 
+
+```
+plt.bar(iphone_data_sorted['Year'], iphone_data_sorted['iOS_Market_Share'], label='iOS Market Share')
+plt.bar(iphone_data_sorted['Year'], iphone_data_sorted['Android_Market_Share'], label='Android Market Share')
+plt.xlabel("Year")
+plt.ylabel("Market Share Percentage")
+plt.title("Market Share iOS vs. Android")
+plt.legend() 
+plt.show()
+```
+
+![image](https://github.com/user-attachments/assets/650d4594-bcb5-4b67-8932-c56c943a4d2d)
+
+The graph illustrates that although Android was gaining traction from 2013 to 2015, it has not been able to take any more market share from Apple. On the contrary, Android's market share began to slow down during 2016 and has been slowly losing its market share. There was a noticeable increase in market share for Android during 2021 and 2022 before falling back down. 
+
+The data suggests that whatever Apple has been doing the last decade has been working. iOS still remains the industry leader while Android has been slowly losing its market share. Although there may be years that Android will gain traction due to new devices being released, iOS and Apple still remain as the consumers' favorite. As such, Apple should not be swayed by year to year changes in market-share, but should be focused on the overrall market share trends over several years. 
 
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
