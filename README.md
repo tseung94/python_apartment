@@ -165,4 +165,8 @@ The graph illustrates that although Android was gaining traction from 2013 to 20
 
 The data suggests that whatever Apple has been doing the last decade has been working. iOS still remains the industry leader while Android has been slowly losing its market share. Although there may be years that Android will gain traction due to new devices being released, iOS and Apple still remain as the consumers' favorite. As such, Apple should not be swayed by year to year changes in market-share, but should be focused on the overrall market share trends over several years. 
 
+## Share 
+
+## Act 
+
 https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
