@@ -171,5 +171,7 @@ The data suggests that whatever Apple has been doing the last decade has been wo
 [Tableau](https://public.tableau.com/app/profile/tseung94/viz/iPhoneMarketShare/Dashboard1#1)
 
 ## Act 
+1. The average growth rate for iPhone users in the US was 3.81% while the average growth rate for global iPhone users was 10.63%. These growth rates can be used to determine how many iPhones should be produced in a year to year basis to meet the ideal production target.
+2. Although the amount of iPhones sold globally has stagnated throughout the recent years, the number of iPhone users have been steadily increasing. In essence, iPhone users like to continue to use iPhones. To continue this brand loyalty, it is imperative that Apple that does not decrease the production quality of iPhones. If cost saving measures are implemented in exchange for the quality of the iPhone, it is very likely that iPhone users will switch to other devices and create a downward trend for Apple's market share within the smart phone industry.
+3. The market-share analysis between iOs and Android clearly reveals that iOs has had the upper hand in the industry for the last 4 years. This further cements the notion that consumers are gravitated towards Apple devices, including the iPhone. As a result, Apple should not siginificantly change their current marketing and production practices as they have yielded positive results. 
 
-https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c
